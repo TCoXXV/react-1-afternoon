@@ -22,7 +22,7 @@ export default class EvenAndOdd extends Component{
     enterPress(event){
         var code = (event.keyCode ? event.keyCode : event.which);
         console.log(code);
-        if (code == 13) { 
+        if (code === 13) { 
             this.updateEvenOdd();
         }
     }
